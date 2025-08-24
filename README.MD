@@ -6,7 +6,7 @@ Think of it like this:
 
 - Flask acts as a bridge between Python and the web — it takes incoming requests (like visiting a     URL), processes them with Python code, and returns responses (like HTML pages or JSON data).
 
-🔑 Key Points about Flask:
+### 🔑 Key Points about Flask:
 
 1. Lightweight & Simple – Unlike Django (which is heavier and has lots of built-in features), Flask  gives you just the basics: routing, request handling, and templates. You add only what you need.
 
