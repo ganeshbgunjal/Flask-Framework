@@ -28,6 +28,14 @@ def form():
         return f'Hello {name}!'
     return render_template('form.html')
 
+# @app.route('/submit', methods=['GET','POST'])
+# def submit():
+#     if request.method == 'POST':
+#         name = request.form['name']
+#         return f'Hello {name}!'
+#     return render_template('form.html')
+
+
 
 if __name__ == '__main__':     # This is the entry point of any .py file.
     app.run(debug=True)                   # to run app
